@@ -1,4 +1,8 @@
 Django==2.1.5
-pytz==2018.9
 django-crispy-forms==1.7.2
+django-filter==2.2.0
+djangorestframework==3.10.2
+djangorestframework-simplejwt==4.3.0
 Pillow==5.4.1
+PyJWT==1.7.1
+pytz==2018.9
