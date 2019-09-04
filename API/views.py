@@ -35,4 +35,4 @@ class ClassroomUpdate(RetrieveUpdateAPIView):
 class ClassroomDelete(DestroyAPIView):
 	queryset = Classroom.objects.all()
 	lookup_field = 'id'
-	lookup_url_kwarg = 'booking_id'
+	lookup_url_kwarg = 'classroom_id'
